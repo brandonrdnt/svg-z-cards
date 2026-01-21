@@ -1,0 +1,29 @@
+2008-04-11 Brandon Ardiente <brandon@ardisoft.net>
+	* New fork: SVG-Z-cards 1.0, based on David Bellot's SVG-cards 2.0.1
+	* made font face and symbol size modifications using Adobe Illustrator CS2
+	* provided multiple versions of the card suite:
+		- .ai Adobe Illustrator CS2 version
+		- .svg Scalable Vector Graphics (DTD 1.1) version
+		- .png Portable Network Graphics version
+	* Since I used Adobe Illustrator CS2 to make edits, my resulting SVG file is over two-times as large as David's original (sorry!!).  I'd recommend using David's original work if size is an issue in your project.
+
+*************************************************************************
+Updates below are part of the original SVG-cards suite by David Bellot.
+*************************************************************************
+
+2006-06-27 David Bellot <david.bellot@free.fr>
+	* fixed namespace bug that prevented svg-card to be correctly displayed in Firefox and Illustrator
+
+2005-08-12  David Bellot <david.bellot@free.fr>
+	* completely new deck of cards based on the previous one
+	* reducing the size of the deck from 4.4Mb to onlyt 910Kb
+	* all cards are in the same file with label to access them through a DOM interface
+
+2004-06-20  David Bellot <bellot@stat.berkeley.edu>
+	* 01_of_*.svg : filename change
+		01_of_*.svg are now 01_of_*_01.svg or _01_of_*_A.svg depending of their number 1 or A
+	* charatecters : resizing the white cover for the top-left and bottom-right cut-off symbol.
+
+2004-06-15  David Bellot <bellot@stat.berkeley.edu>
+	* * : first release
+		This is the first public release
